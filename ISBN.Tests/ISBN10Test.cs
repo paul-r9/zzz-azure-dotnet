@@ -16,11 +16,6 @@ namespace ISBN.Tests {
             //Assert
             Assert.Equal("ISBN must be 10 characters in length", actual.title);
         }
-
-        [Fact]
-        public void FailTheBuild() {
-            Assert.True(false);
-        }
     }
 
     public class BookInfo {
